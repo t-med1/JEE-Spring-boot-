@@ -1,0 +1,2385 @@
+{
+	"_type": "Project",
+	"_id": "id-001001",
+	"name": "CitizenConnect - Diagramme d'etat Complaint",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "id-001002",
+			"_parent": {
+				"$ref": "id-001001"
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLStateMachine",
+					"_id": "id-001004",
+					"_parent": {
+						"$ref": "id-001002"
+					},
+					"name": "Complaint.status",
+					"ownedElements": [
+						{
+							"_type": "UMLStatechartDiagram",
+							"_id": "id-001005",
+							"_parent": {
+								"$ref": "id-001004"
+							},
+							"name": "Diagramme d'etat - Complaint.status",
+							"defaultDiagram": true,
+							"ownedViews": [
+								{
+									"_type": "UMLPseudostateView",
+									"_id": "id-001025",
+									"_parent": {
+										"$ref": "id-001005"
+									},
+									"model": {
+										"$ref": "id-001006"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "id-001026",
+											"_parent": {
+												"$ref": "id-001025"
+											},
+											"model": {
+												"$ref": "id-001006"
+											},
+											"visible": false,
+											"fillColor": "#000000",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 40,
+											"top": 66,
+											"width": 60,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "id-001027",
+											"_parent": {
+												"$ref": "id-001025"
+											},
+											"model": {
+												"$ref": "id-001006"
+											},
+											"visible": false,
+											"fillColor": "#000000",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 40,
+											"top": 25,
+											"width": 60,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "id-001028",
+											"_parent": {
+												"$ref": "id-001025"
+											},
+											"model": {
+												"$ref": "id-001006"
+											},
+											"visible": false,
+											"fillColor": "#000000",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 40,
+											"top": 40,
+											"height": 13
+										}
+									],
+									"fillColor": "#000000",
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"containerChangeable": true,
+									"left": 40,
+									"top": 40,
+									"width": 24,
+									"height": 24,
+									"nameLabel": {
+										"$ref": "id-001026"
+									},
+									"stereotypeLabel": {
+										"$ref": "id-001027"
+									},
+									"propertyLabel": {
+										"$ref": "id-001028"
+									}
+								},
+								{
+									"_type": "UMLStateView",
+									"_id": "id-001029",
+									"_parent": {
+										"$ref": "id-001005"
+									},
+									"model": {
+										"$ref": "id-001007"
+									},
+									"subViews": [
+										{
+											"_type": "UMLNameCompartmentView",
+											"_id": "id-001030",
+											"_parent": {
+												"$ref": "id-001029"
+											},
+											"model": {
+												"$ref": "id-001007"
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "id-001031",
+													"_parent": {
+														"$ref": "id-001030"
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"parentStyle": true,
+													"containerExtending": true,
+													"left": 120,
+													"top": 30,
+													"width": 140,
+													"height": 13
+												},
+												{
+													"_type": "LabelView",
+													"_id": "id-001032",
+													"_parent": {
+														"$ref": "id-001030"
+													},
+													"font": "Arial;13;1",
+													"parentStyle": true,
+													"containerExtending": true,
+													"left": 125,
+													"top": 37,
+													"width": 131,
+													"height": 13,
+													"text": "new"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "id-001033",
+													"_parent": {
+														"$ref": "id-001030"
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"parentStyle": true,
+													"containerExtending": true,
+													"left": 120,
+													"top": 30,
+													"width": 140,
+													"height": 13,
+													"text": "(from )"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "id-001034",
+													"_parent": {
+														"$ref": "id-001030"
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"parentStyle": true,
+													"containerExtending": true,
+													"left": 120,
+													"top": 30,
+													"height": 13,
+													"horizontalAlignment": 1
+												}
+											],
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 120,
+											"top": 30,
+											"width": 141,
+											"height": 25,
+											"stereotypeLabel": {
+												"$ref": "id-001031"
+											},
+											"nameLabel": {
+												"$ref": "id-001032"
+											},
+											"namespaceLabel": {
+												"$ref": "id-001033"
+											},
+											"propertyLabel": {
+												"$ref": "id-001034"
+											}
+										},
+										{
+											"_type": "UMLInternalActivityCompartmentView",
+											"_id": "id-001035",
+											"_parent": {
+												"$ref": "id-001029"
+											},
+											"model": {
+												"$ref": "id-001007"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 120,
+											"top": 55,
+											"width": 140,
+											"height": 10
+										},
+										{
+											"_type": "UMLInternalTransitionCompartmentView",
+											"_id": "id-001036",
+											"_parent": {
+												"$ref": "id-001029"
+											},
+											"model": {
+												"$ref": "id-001007"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 120,
+											"top": 55,
+											"width": 140,
+											"height": 10
+										},
+										{
+											"_type": "UMLDecompositionCompartmentView",
+											"_id": "id-001037",
+											"_parent": {
+												"$ref": "id-001029"
+											},
+											"model": {
+												"$ref": "id-001007"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 120,
+											"top": 55,
+											"width": 140
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"containerChangeable": true,
+									"left": 120,
+									"top": 30,
+									"width": 140,
+									"height": 60,
+									"nameCompartment": {
+										"$ref": "id-001030"
+									},
+									"internalActivityCompartment": {
+										"$ref": "id-001035"
+									},
+									"internalTransitionCompartment": {
+										"$ref": "id-001036"
+									},
+									"decompositionCompartment": {
+										"$ref": "id-001037"
+									}
+								},
+								{
+									"_type": "UMLStateView",
+									"_id": "id-001038",
+									"_parent": {
+										"$ref": "id-001005"
+									},
+									"model": {
+										"$ref": "id-001008"
+									},
+									"subViews": [
+										{
+											"_type": "UMLNameCompartmentView",
+											"_id": "id-001039",
+											"_parent": {
+												"$ref": "id-001038"
+											},
+											"model": {
+												"$ref": "id-001008"
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "id-001040",
+													"_parent": {
+														"$ref": "id-001039"
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"parentStyle": true,
+													"containerExtending": true,
+													"left": 340,
+													"top": 30,
+													"width": 160,
+													"height": 13
+												},
+												{
+													"_type": "LabelView",
+													"_id": "id-001041",
+													"_parent": {
+														"$ref": "id-001039"
+													},
+													"font": "Arial;13;1",
+													"parentStyle": true,
+													"containerExtending": true,
+													"left": 345,
+													"top": 37,
+													"width": 151,
+													"height": 13,
+													"text": "in progres"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "id-001042",
+													"_parent": {
+														"$ref": "id-001039"
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"parentStyle": true,
+													"containerExtending": true,
+													"left": 340,
+													"top": 30,
+													"width": 160,
+													"height": 13,
+													"text": "(from )"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "id-001043",
+													"_parent": {
+														"$ref": "id-001039"
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"parentStyle": true,
+													"containerExtending": true,
+													"left": 340,
+													"top": 30,
+													"height": 13,
+													"horizontalAlignment": 1
+												}
+											],
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 340,
+											"top": 30,
+											"width": 161,
+											"height": 25,
+											"stereotypeLabel": {
+												"$ref": "id-001040"
+											},
+											"nameLabel": {
+												"$ref": "id-001041"
+											},
+											"namespaceLabel": {
+												"$ref": "id-001042"
+											},
+											"propertyLabel": {
+												"$ref": "id-001043"
+											}
+										},
+										{
+											"_type": "UMLInternalActivityCompartmentView",
+											"_id": "id-001044",
+											"_parent": {
+												"$ref": "id-001038"
+											},
+											"model": {
+												"$ref": "id-001008"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 340,
+											"top": 55,
+											"width": 160,
+											"height": 10
+										},
+										{
+											"_type": "UMLInternalTransitionCompartmentView",
+											"_id": "id-001045",
+											"_parent": {
+												"$ref": "id-001038"
+											},
+											"model": {
+												"$ref": "id-001008"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 340,
+											"top": 55,
+											"width": 160,
+											"height": 10
+										},
+										{
+											"_type": "UMLDecompositionCompartmentView",
+											"_id": "id-001046",
+											"_parent": {
+												"$ref": "id-001038"
+											},
+											"model": {
+												"$ref": "id-001008"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 340,
+											"top": 55,
+											"width": 160
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"containerChangeable": true,
+									"left": 340,
+									"top": 30,
+									"width": 160,
+									"height": 60,
+									"nameCompartment": {
+										"$ref": "id-001039"
+									},
+									"internalActivityCompartment": {
+										"$ref": "id-001044"
+									},
+									"internalTransitionCompartment": {
+										"$ref": "id-001045"
+									},
+									"decompositionCompartment": {
+										"$ref": "id-001046"
+									}
+								},
+								{
+									"_type": "UMLStateView",
+									"_id": "id-001047",
+									"_parent": {
+										"$ref": "id-001005"
+									},
+									"model": {
+										"$ref": "id-001009"
+									},
+									"subViews": [
+										{
+											"_type": "UMLNameCompartmentView",
+											"_id": "id-001048",
+											"_parent": {
+												"$ref": "id-001047"
+											},
+											"model": {
+												"$ref": "id-001009"
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "id-001049",
+													"_parent": {
+														"$ref": "id-001048"
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"parentStyle": true,
+													"containerExtending": true,
+													"left": 140,
+													"top": 160,
+													"width": 160,
+													"height": 13
+												},
+												{
+													"_type": "LabelView",
+													"_id": "id-001050",
+													"_parent": {
+														"$ref": "id-001048"
+													},
+													"font": "Arial;13;1",
+													"parentStyle": true,
+													"containerExtending": true,
+													"left": 245,
+													"top": 167,
+													"width": 151,
+													"height": 13,
+													"text": "waiting"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "id-001051",
+													"_parent": {
+														"$ref": "id-001048"
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"parentStyle": true,
+													"containerExtending": true,
+													"left": 140,
+													"top": 160,
+													"width": 160,
+													"height": 13,
+													"text": "(from )"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "id-001052",
+													"_parent": {
+														"$ref": "id-001048"
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"parentStyle": true,
+													"containerExtending": true,
+													"left": 140,
+													"top": 160,
+													"height": 13,
+													"horizontalAlignment": 1
+												}
+											],
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 240,
+											"top": 160,
+											"width": 161,
+											"height": 25,
+											"stereotypeLabel": {
+												"$ref": "id-001049"
+											},
+											"nameLabel": {
+												"$ref": "id-001050"
+											},
+											"namespaceLabel": {
+												"$ref": "id-001051"
+											},
+											"propertyLabel": {
+												"$ref": "id-001052"
+											}
+										},
+										{
+											"_type": "UMLInternalActivityCompartmentView",
+											"_id": "id-001053",
+											"_parent": {
+												"$ref": "id-001047"
+											},
+											"model": {
+												"$ref": "id-001009"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 240,
+											"top": 185,
+											"width": 160,
+											"height": 10
+										},
+										{
+											"_type": "UMLInternalTransitionCompartmentView",
+											"_id": "id-001054",
+											"_parent": {
+												"$ref": "id-001047"
+											},
+											"model": {
+												"$ref": "id-001009"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 240,
+											"top": 185,
+											"width": 160,
+											"height": 10
+										},
+										{
+											"_type": "UMLDecompositionCompartmentView",
+											"_id": "id-001055",
+											"_parent": {
+												"$ref": "id-001047"
+											},
+											"model": {
+												"$ref": "id-001009"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 240,
+											"top": 185,
+											"width": 160
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"containerChangeable": true,
+									"left": 240,
+									"top": 160,
+									"width": 160,
+									"height": 60,
+									"nameCompartment": {
+										"$ref": "id-001048"
+									},
+									"internalActivityCompartment": {
+										"$ref": "id-001053"
+									},
+									"internalTransitionCompartment": {
+										"$ref": "id-001054"
+									},
+									"decompositionCompartment": {
+										"$ref": "id-001055"
+									}
+								},
+								{
+									"_type": "UMLStateView",
+									"_id": "id-001056",
+									"_parent": {
+										"$ref": "id-001005"
+									},
+									"model": {
+										"$ref": "id-001010"
+									},
+									"subViews": [
+										{
+											"_type": "UMLNameCompartmentView",
+											"_id": "id-001057",
+											"_parent": {
+												"$ref": "id-001056"
+											},
+											"model": {
+												"$ref": "id-001010"
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "id-001058",
+													"_parent": {
+														"$ref": "id-001057"
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"parentStyle": true,
+													"containerExtending": true,
+													"left": 600,
+													"top": 30,
+													"width": 160,
+													"height": 13
+												},
+												{
+													"_type": "LabelView",
+													"_id": "id-001059",
+													"_parent": {
+														"$ref": "id-001057"
+													},
+													"font": "Arial;13;1",
+													"parentStyle": true,
+													"containerExtending": true,
+													"left": 605,
+													"top": 37,
+													"width": 151,
+													"height": 13,
+													"text": "resolved"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "id-001060",
+													"_parent": {
+														"$ref": "id-001057"
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"parentStyle": true,
+													"containerExtending": true,
+													"left": 600,
+													"top": 30,
+													"width": 160,
+													"height": 13,
+													"text": "(from )"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "id-001061",
+													"_parent": {
+														"$ref": "id-001057"
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"parentStyle": true,
+													"containerExtending": true,
+													"left": 600,
+													"top": 30,
+													"height": 13,
+													"horizontalAlignment": 1
+												}
+											],
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 600,
+											"top": 30,
+											"width": 161,
+											"height": 25,
+											"stereotypeLabel": {
+												"$ref": "id-001058"
+											},
+											"nameLabel": {
+												"$ref": "id-001059"
+											},
+											"namespaceLabel": {
+												"$ref": "id-001060"
+											},
+											"propertyLabel": {
+												"$ref": "id-001061"
+											}
+										},
+										{
+											"_type": "UMLInternalActivityCompartmentView",
+											"_id": "id-001062",
+											"_parent": {
+												"$ref": "id-001056"
+											},
+											"model": {
+												"$ref": "id-001010"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 600,
+											"top": 55,
+											"width": 160,
+											"height": 10
+										},
+										{
+											"_type": "UMLInternalTransitionCompartmentView",
+											"_id": "id-001063",
+											"_parent": {
+												"$ref": "id-001056"
+											},
+											"model": {
+												"$ref": "id-001010"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 600,
+											"top": 55,
+											"width": 160,
+											"height": 10
+										},
+										{
+											"_type": "UMLDecompositionCompartmentView",
+											"_id": "id-001064",
+											"_parent": {
+												"$ref": "id-001056"
+											},
+											"model": {
+												"$ref": "id-001010"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 600,
+											"top": 55,
+											"width": 160
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"containerChangeable": true,
+									"left": 600,
+									"top": 30,
+									"width": 160,
+									"height": 60,
+									"nameCompartment": {
+										"$ref": "id-001057"
+									},
+									"internalActivityCompartment": {
+										"$ref": "id-001062"
+									},
+									"internalTransitionCompartment": {
+										"$ref": "id-001063"
+									},
+									"decompositionCompartment": {
+										"$ref": "id-001064"
+									}
+								},
+								{
+									"_type": "UMLStateView",
+									"_id": "id-001065",
+									"_parent": {
+										"$ref": "id-001005"
+									},
+									"model": {
+										"$ref": "id-001011"
+									},
+									"subViews": [
+										{
+											"_type": "UMLNameCompartmentView",
+											"_id": "id-001066",
+											"_parent": {
+												"$ref": "id-001065"
+											},
+											"model": {
+												"$ref": "id-001011"
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "id-001067",
+													"_parent": {
+														"$ref": "id-001066"
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"parentStyle": true,
+													"containerExtending": true,
+													"left": 820,
+													"top": 30,
+													"width": 140,
+													"height": 13
+												},
+												{
+													"_type": "LabelView",
+													"_id": "id-001068",
+													"_parent": {
+														"$ref": "id-001066"
+													},
+													"font": "Arial;13;1",
+													"parentStyle": true,
+													"containerExtending": true,
+													"left": 825,
+													"top": 37,
+													"width": 131,
+													"height": 13,
+													"text": "closed"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "id-001069",
+													"_parent": {
+														"$ref": "id-001066"
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"parentStyle": true,
+													"containerExtending": true,
+													"left": 820,
+													"top": 30,
+													"width": 140,
+													"height": 13,
+													"text": "(from )"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "id-001070",
+													"_parent": {
+														"$ref": "id-001066"
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"parentStyle": true,
+													"containerExtending": true,
+													"left": 820,
+													"top": 30,
+													"height": 13,
+													"horizontalAlignment": 1
+												}
+											],
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 820,
+											"top": 30,
+											"width": 141,
+											"height": 25,
+											"stereotypeLabel": {
+												"$ref": "id-001067"
+											},
+											"nameLabel": {
+												"$ref": "id-001068"
+											},
+											"namespaceLabel": {
+												"$ref": "id-001069"
+											},
+											"propertyLabel": {
+												"$ref": "id-001070"
+											}
+										},
+										{
+											"_type": "UMLInternalActivityCompartmentView",
+											"_id": "id-001071",
+											"_parent": {
+												"$ref": "id-001065"
+											},
+											"model": {
+												"$ref": "id-001011"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 820,
+											"top": 55,
+											"width": 140,
+											"height": 10
+										},
+										{
+											"_type": "UMLInternalTransitionCompartmentView",
+											"_id": "id-001072",
+											"_parent": {
+												"$ref": "id-001065"
+											},
+											"model": {
+												"$ref": "id-001011"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 820,
+											"top": 55,
+											"width": 140,
+											"height": 10
+										},
+										{
+											"_type": "UMLDecompositionCompartmentView",
+											"_id": "id-001073",
+											"_parent": {
+												"$ref": "id-001065"
+											},
+											"model": {
+												"$ref": "id-001011"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 820,
+											"top": 55,
+											"width": 140
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"containerChangeable": true,
+									"left": 820,
+									"top": 30,
+									"width": 140,
+									"height": 60,
+									"nameCompartment": {
+										"$ref": "id-001066"
+									},
+									"internalActivityCompartment": {
+										"$ref": "id-001071"
+									},
+									"internalTransitionCompartment": {
+										"$ref": "id-001072"
+									},
+									"decompositionCompartment": {
+										"$ref": "id-001073"
+									}
+								},
+								{
+									"_type": "UMLStateView",
+									"_id": "id-001074",
+									"_parent": {
+										"$ref": "id-001005"
+									},
+									"model": {
+										"$ref": "id-001012"
+									},
+									"subViews": [
+										{
+											"_type": "UMLNameCompartmentView",
+											"_id": "id-001075",
+											"_parent": {
+												"$ref": "id-001074"
+											},
+											"model": {
+												"$ref": "id-001012"
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "id-001076",
+													"_parent": {
+														"$ref": "id-001075"
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"parentStyle": true,
+													"containerExtending": true,
+													"left": 460,
+													"top": 300,
+													"width": 160,
+													"height": 13
+												},
+												{
+													"_type": "LabelView",
+													"_id": "id-001077",
+													"_parent": {
+														"$ref": "id-001075"
+													},
+													"font": "Arial;13;1",
+													"parentStyle": true,
+													"containerExtending": true,
+													"left": 465,
+													"top": 307,
+													"width": 151,
+													"height": 13,
+													"text": "rejected"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "id-001078",
+													"_parent": {
+														"$ref": "id-001075"
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"parentStyle": true,
+													"containerExtending": true,
+													"left": 460,
+													"top": 300,
+													"width": 160,
+													"height": 13,
+													"text": "(from )"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "id-001079",
+													"_parent": {
+														"$ref": "id-001075"
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"parentStyle": true,
+													"containerExtending": true,
+													"left": 460,
+													"top": 300,
+													"height": 13,
+													"horizontalAlignment": 1
+												}
+											],
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 460,
+											"top": 300,
+											"width": 161,
+											"height": 25,
+											"stereotypeLabel": {
+												"$ref": "id-001076"
+											},
+											"nameLabel": {
+												"$ref": "id-001077"
+											},
+											"namespaceLabel": {
+												"$ref": "id-001078"
+											},
+											"propertyLabel": {
+												"$ref": "id-001079"
+											}
+										},
+										{
+											"_type": "UMLInternalActivityCompartmentView",
+											"_id": "id-001080",
+											"_parent": {
+												"$ref": "id-001074"
+											},
+											"model": {
+												"$ref": "id-001012"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 460,
+											"top": 325,
+											"width": 160,
+											"height": 10
+										},
+										{
+											"_type": "UMLInternalTransitionCompartmentView",
+											"_id": "id-001081",
+											"_parent": {
+												"$ref": "id-001074"
+											},
+											"model": {
+												"$ref": "id-001012"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 460,
+											"top": 325,
+											"width": 160,
+											"height": 10
+										},
+										{
+											"_type": "UMLDecompositionCompartmentView",
+											"_id": "id-001082",
+											"_parent": {
+												"$ref": "id-001074"
+											},
+											"model": {
+												"$ref": "id-001012"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 460,
+											"top": 325,
+											"width": 160
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"containerChangeable": true,
+									"left": 460,
+									"top": 300,
+									"width": 160,
+									"height": 60,
+									"nameCompartment": {
+										"$ref": "id-001075"
+									},
+									"internalActivityCompartment": {
+										"$ref": "id-001080"
+									},
+									"internalTransitionCompartment": {
+										"$ref": "id-001081"
+									},
+									"decompositionCompartment": {
+										"$ref": "id-001082"
+									}
+								},
+								{
+									"_type": "UMLFinalStateView",
+									"_id": "id-001083",
+									"_parent": {
+										"$ref": "id-001005"
+									},
+									"model": {
+										"$ref": "id-001013"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "id-001084",
+											"_parent": {
+												"$ref": "id-001083"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 900,
+											"top": 350,
+											"width": 60,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "id-001085",
+											"_parent": {
+												"$ref": "id-001083"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 900,
+											"top": 305,
+											"width": 60,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "id-001086",
+											"_parent": {
+												"$ref": "id-001083"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 900,
+											"top": 320,
+											"height": 13
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"containerChangeable": true,
+									"left": 900,
+									"top": 320,
+									"width": 28,
+									"height": 28
+								},
+								{
+									"_type": "UMLTransitionView",
+									"_id": "id-001087",
+									"_parent": {
+										"$ref": "id-001005"
+									},
+									"model": {
+										"$ref": "id-001014"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "id-001088",
+											"_parent": {
+												"$ref": "id-001087"
+											},
+											"model": {
+												"$ref": "id-001014"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 120,
+											"top": 48,
+											"width": 60,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "id-001089",
+											"_parent": {
+												"$ref": "id-001087"
+											},
+											"model": {
+												"$ref": "id-001014"
+											},
+											"visible": null,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 80,
+											"top": 60,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "id-001090",
+											"_parent": {
+												"$ref": "id-001087"
+											},
+											"model": {
+												"$ref": "id-001014"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 80,
+											"top": 60,
+											"height": 13
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"head": {
+										"$ref": "id-001029"
+									},
+									"tail": {
+										"$ref": "id-001025"
+									},
+									"lineStyle": 2,
+									"points": "64:60;120:60",
+									"showVisibility": true,
+									"nameLabel": {
+										"$ref": "id-001088"
+									},
+									"stereotypeLabel": {
+										"$ref": "id-001089"
+									},
+									"propertyLabel": {
+										"$ref": "id-001090"
+									}
+								},
+								{
+									"_type": "UMLTransitionView",
+									"_id": "id-001091",
+									"_parent": {
+										"$ref": "id-001005"
+									},
+									"model": {
+										"$ref": "id-001015"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "id-001092",
+											"_parent": {
+												"$ref": "id-001091"
+											},
+											"model": {
+												"$ref": "id-001015"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 340,
+											"top": 48,
+											"width": 60,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "id-001093",
+											"_parent": {
+												"$ref": "id-001091"
+											},
+											"model": {
+												"$ref": "id-001015"
+											},
+											"visible": null,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 260,
+											"top": 60,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "id-001094",
+											"_parent": {
+												"$ref": "id-001091"
+											},
+											"model": {
+												"$ref": "id-001015"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 260,
+											"top": 60,
+											"height": 13
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"head": {
+										"$ref": "id-001038"
+									},
+									"tail": {
+										"$ref": "id-001029"
+									},
+									"lineStyle": 2,
+									"points": "260:60;340:60",
+									"showVisibility": true,
+									"nameLabel": {
+										"$ref": "id-001092"
+									},
+									"stereotypeLabel": {
+										"$ref": "id-001093"
+									},
+									"propertyLabel": {
+										"$ref": "id-001094"
+									}
+								},
+								{
+									"_type": "UMLTransitionView",
+									"_id": "id-001095",
+									"_parent": {
+										"$ref": "id-001005"
+									},
+									"model": {
+										"$ref": "id-001016"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "id-001096",
+											"_parent": {
+												"$ref": "id-001095"
+											},
+											"model": {
+												"$ref": "id-001016"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 500,
+											"top": 288,
+											"width": 60,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "id-001097",
+											"_parent": {
+												"$ref": "id-001095"
+											},
+											"model": {
+												"$ref": "id-001016"
+											},
+											"visible": null,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 190,
+											"top": 90,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "id-001098",
+											"_parent": {
+												"$ref": "id-001095"
+											},
+											"model": {
+												"$ref": "id-001016"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 190,
+											"top": 90,
+											"height": 13
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"head": {
+										"$ref": "id-001074"
+									},
+									"tail": {
+										"$ref": "id-001029"
+									},
+									"lineStyle": 2,
+									"points": "190:90;190:300;460:300",
+									"showVisibility": true,
+									"nameLabel": {
+										"$ref": "id-001096"
+									},
+									"stereotypeLabel": {
+										"$ref": "id-001097"
+									},
+									"propertyLabel": {
+										"$ref": "id-001098"
+									}
+								},
+								{
+									"_type": "UMLTransitionView",
+									"_id": "id-001099",
+									"_parent": {
+										"$ref": "id-001005"
+									},
+									"model": {
+										"$ref": "id-001017"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "id-001100",
+											"_parent": {
+												"$ref": "id-001099"
+											},
+											"model": {
+												"$ref": "id-001017"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 420,
+											"top": 148,
+											"width": 60,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "id-001101",
+											"_parent": {
+												"$ref": "id-001099"
+											},
+											"model": {
+												"$ref": "id-001017"
+											},
+											"visible": null,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 420,
+											"top": 90,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "id-001102",
+											"_parent": {
+												"$ref": "id-001099"
+											},
+											"model": {
+												"$ref": "id-001017"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 420,
+											"top": 90,
+											"height": 13
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"head": {
+										"$ref": "id-001047"
+									},
+									"tail": {
+										"$ref": "id-001038"
+									},
+									"lineStyle": 2,
+									"points": "420:90;420:160;400:160",
+									"showVisibility": true,
+									"nameLabel": {
+										"$ref": "id-001100"
+									},
+									"stereotypeLabel": {
+										"$ref": "id-001101"
+									},
+									"propertyLabel": {
+										"$ref": "id-001102"
+									}
+								},
+								{
+									"_type": "UMLTransitionView",
+									"_id": "id-001103",
+									"_parent": {
+										"$ref": "id-001005"
+									},
+									"model": {
+										"$ref": "id-001018"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "id-001104",
+											"_parent": {
+												"$ref": "id-001103"
+											},
+											"model": {
+												"$ref": "id-001018"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 380,
+											"top": 78,
+											"width": 60,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "id-001105",
+											"_parent": {
+												"$ref": "id-001103"
+											},
+											"model": {
+												"$ref": "id-001018"
+											},
+											"visible": null,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 380,
+											"top": 160,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "id-001106",
+											"_parent": {
+												"$ref": "id-001103"
+											},
+											"model": {
+												"$ref": "id-001018"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 380,
+											"top": 160,
+											"height": 13
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"head": {
+										"$ref": "id-001038"
+									},
+									"tail": {
+										"$ref": "id-001047"
+									},
+									"lineStyle": 2,
+									"points": "380:160;380:90",
+									"showVisibility": true,
+									"nameLabel": {
+										"$ref": "id-001104"
+									},
+									"stereotypeLabel": {
+										"$ref": "id-001105"
+									},
+									"propertyLabel": {
+										"$ref": "id-001106"
+									}
+								},
+								{
+									"_type": "UMLTransitionView",
+									"_id": "id-001107",
+									"_parent": {
+										"$ref": "id-001005"
+									},
+									"model": {
+										"$ref": "id-001019"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "id-001108",
+											"_parent": {
+												"$ref": "id-001107"
+											},
+											"model": {
+												"$ref": "id-001019"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 600,
+											"top": 48,
+											"width": 60,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "id-001109",
+											"_parent": {
+												"$ref": "id-001107"
+											},
+											"model": {
+												"$ref": "id-001019"
+											},
+											"visible": null,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 500,
+											"top": 60,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "id-001110",
+											"_parent": {
+												"$ref": "id-001107"
+											},
+											"model": {
+												"$ref": "id-001019"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 500,
+											"top": 60,
+											"height": 13
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"head": {
+										"$ref": "id-001056"
+									},
+									"tail": {
+										"$ref": "id-001038"
+									},
+									"lineStyle": 2,
+									"points": "500:60;600:60",
+									"showVisibility": true,
+									"nameLabel": {
+										"$ref": "id-001108"
+									},
+									"stereotypeLabel": {
+										"$ref": "id-001109"
+									},
+									"propertyLabel": {
+										"$ref": "id-001110"
+									}
+								},
+								{
+									"_type": "UMLTransitionView",
+									"_id": "id-001111",
+									"_parent": {
+										"$ref": "id-001005"
+									},
+									"model": {
+										"$ref": "id-001020"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "id-001112",
+											"_parent": {
+												"$ref": "id-001111"
+											},
+											"model": {
+												"$ref": "id-001020"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 680,
+											"top": 78,
+											"width": 60,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "id-001113",
+											"_parent": {
+												"$ref": "id-001111"
+											},
+											"model": {
+												"$ref": "id-001020"
+											},
+											"visible": null,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 500,
+											"top": 170,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "id-001114",
+											"_parent": {
+												"$ref": "id-001111"
+											},
+											"model": {
+												"$ref": "id-001020"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 500,
+											"top": 170,
+											"height": 13
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"head": {
+										"$ref": "id-001056"
+									},
+									"tail": {
+										"$ref": "id-001047"
+									},
+									"lineStyle": 2,
+									"points": "400:170;680:170;680:90",
+									"showVisibility": true,
+									"nameLabel": {
+										"$ref": "id-001112"
+									},
+									"stereotypeLabel": {
+										"$ref": "id-001113"
+									},
+									"propertyLabel": {
+										"$ref": "id-001114"
+									}
+								},
+								{
+									"_type": "UMLTransitionView",
+									"_id": "id-001115",
+									"_parent": {
+										"$ref": "id-001005"
+									},
+									"model": {
+										"$ref": "id-001021"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "id-001116",
+											"_parent": {
+												"$ref": "id-001115"
+											},
+											"model": {
+												"$ref": "id-001021"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 540,
+											"top": 288,
+											"width": 60,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "id-001117",
+											"_parent": {
+												"$ref": "id-001115"
+											},
+											"model": {
+												"$ref": "id-001021"
+											},
+											"visible": null,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 440,
+											"top": 90,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "id-001118",
+											"_parent": {
+												"$ref": "id-001115"
+											},
+											"model": {
+												"$ref": "id-001021"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 440,
+											"top": 90,
+											"height": 13
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"head": {
+										"$ref": "id-001074"
+									},
+									"tail": {
+										"$ref": "id-001038"
+									},
+									"lineStyle": 2,
+									"points": "440:90;440:300;460:300",
+									"showVisibility": true,
+									"nameLabel": {
+										"$ref": "id-001116"
+									},
+									"stereotypeLabel": {
+										"$ref": "id-001117"
+									},
+									"propertyLabel": {
+										"$ref": "id-001118"
+									}
+								},
+								{
+									"_type": "UMLTransitionView",
+									"_id": "id-001119",
+									"_parent": {
+										"$ref": "id-001005"
+									},
+									"model": {
+										"$ref": "id-001022"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "id-001120",
+											"_parent": {
+												"$ref": "id-001119"
+											},
+											"model": {
+												"$ref": "id-001022"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 820,
+											"top": 48,
+											"width": 60,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "id-001121",
+											"_parent": {
+												"$ref": "id-001119"
+											},
+											"model": {
+												"$ref": "id-001022"
+											},
+											"visible": null,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 760,
+											"top": 60,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "id-001122",
+											"_parent": {
+												"$ref": "id-001119"
+											},
+											"model": {
+												"$ref": "id-001022"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 760,
+											"top": 60,
+											"height": 13
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"head": {
+										"$ref": "id-001065"
+									},
+									"tail": {
+										"$ref": "id-001056"
+									},
+									"lineStyle": 2,
+									"points": "760:60;820:60",
+									"showVisibility": true,
+									"nameLabel": {
+										"$ref": "id-001120"
+									},
+									"stereotypeLabel": {
+										"$ref": "id-001121"
+									},
+									"propertyLabel": {
+										"$ref": "id-001122"
+									}
+								},
+								{
+									"_type": "UMLTransitionView",
+									"_id": "id-001123",
+									"_parent": {
+										"$ref": "id-001005"
+									},
+									"model": {
+										"$ref": "id-001023"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "id-001124",
+											"_parent": {
+												"$ref": "id-001123"
+											},
+											"model": {
+												"$ref": "id-001023"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 914,
+											"top": 308,
+											"width": 60,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "id-001125",
+											"_parent": {
+												"$ref": "id-001123"
+											},
+											"model": {
+												"$ref": "id-001023"
+											},
+											"visible": null,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 890,
+											"top": 90,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "id-001126",
+											"_parent": {
+												"$ref": "id-001123"
+											},
+											"model": {
+												"$ref": "id-001023"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 890,
+											"top": 90,
+											"height": 13
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"head": {
+										"$ref": "id-001083"
+									},
+									"tail": {
+										"$ref": "id-001065"
+									},
+									"lineStyle": 2,
+									"points": "890:90;890:320;900:320",
+									"showVisibility": true,
+									"nameLabel": {
+										"$ref": "id-001124"
+									},
+									"stereotypeLabel": {
+										"$ref": "id-001125"
+									},
+									"propertyLabel": {
+										"$ref": "id-001126"
+									}
+								},
+								{
+									"_type": "UMLTransitionView",
+									"_id": "id-001127",
+									"_parent": {
+										"$ref": "id-001005"
+									},
+									"model": {
+										"$ref": "id-001024"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "id-001128",
+											"_parent": {
+												"$ref": "id-001127"
+											},
+											"model": {
+												"$ref": "id-001024"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 900,
+											"top": 322,
+											"width": 60,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "id-001129",
+											"_parent": {
+												"$ref": "id-001127"
+											},
+											"model": {
+												"$ref": "id-001024"
+											},
+											"visible": null,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 620,
+											"top": 330,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "id-001130",
+											"_parent": {
+												"$ref": "id-001127"
+											},
+											"model": {
+												"$ref": "id-001024"
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"containerExtending": true,
+											"left": 620,
+											"top": 330,
+											"height": 13
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"head": {
+										"$ref": "id-001083"
+									},
+									"tail": {
+										"$ref": "id-001074"
+									},
+									"lineStyle": 2,
+									"points": "620:334;900:334",
+									"showVisibility": true,
+									"nameLabel": {
+										"$ref": "id-001128"
+									},
+									"stereotypeLabel": {
+										"$ref": "id-001129"
+									},
+									"propertyLabel": {
+										"$ref": "id-001130"
+									}
+								}
+							]
+						}
+					],
+					"regions": [
+						{
+							"_type": "UMLRegion",
+							"_id": "id-001003",
+							"_parent": {
+								"$ref": "id-001004"
+							},
+							"vertices": [
+								{
+									"_type": "UMLPseudostate",
+									"_id": "id-001006",
+									"_parent": {
+										"$ref": "id-001003"
+									},
+									"kind": "initial"
+								},
+								{
+									"_type": "UMLState",
+									"_id": "id-001007",
+									"_parent": {
+										"$ref": "id-001003"
+									},
+									"name": "new"
+								},
+								{
+									"_type": "UMLState",
+									"_id": "id-001008",
+									"_parent": {
+										"$ref": "id-001003"
+									},
+									"name": "in progres"
+								},
+								{
+									"_type": "UMLState",
+									"_id": "id-001009",
+									"_parent": {
+										"$ref": "id-001003"
+									},
+									"name": "waiting"
+								},
+								{
+									"_type": "UMLState",
+									"_id": "id-001010",
+									"_parent": {
+										"$ref": "id-001003"
+									},
+									"name": "resolved"
+								},
+								{
+									"_type": "UMLState",
+									"_id": "id-001011",
+									"_parent": {
+										"$ref": "id-001003"
+									},
+									"name": "closed"
+								},
+								{
+									"_type": "UMLState",
+									"_id": "id-001012",
+									"_parent": {
+										"$ref": "id-001003"
+									},
+									"name": "rejected"
+								},
+								{
+									"_type": "UMLFinalState",
+									"_id": "id-001013",
+									"_parent": {
+										"$ref": "id-001003"
+									}
+								}
+							],
+							"transitions": [
+								{
+									"_type": "UMLTransition",
+									"_id": "id-001014",
+									"_parent": {
+										"$ref": "id-001003"
+									},
+									"source": {
+										"$ref": "id-001006"
+									},
+									"target": {
+										"$ref": "id-001007"
+									}
+								},
+								{
+									"_type": "UMLTransition",
+									"_id": "id-001015",
+									"_parent": {
+										"$ref": "id-001003"
+									},
+									"source": {
+										"$ref": "id-001007"
+									},
+									"target": {
+										"$ref": "id-001008"
+									}
+								},
+								{
+									"_type": "UMLTransition",
+									"_id": "id-001016",
+									"_parent": {
+										"$ref": "id-001003"
+									},
+									"source": {
+										"$ref": "id-001007"
+									},
+									"target": {
+										"$ref": "id-001012"
+									}
+								},
+								{
+									"_type": "UMLTransition",
+									"_id": "id-001017",
+									"_parent": {
+										"$ref": "id-001003"
+									},
+									"source": {
+										"$ref": "id-001008"
+									},
+									"target": {
+										"$ref": "id-001009"
+									}
+								},
+								{
+									"_type": "UMLTransition",
+									"_id": "id-001018",
+									"_parent": {
+										"$ref": "id-001003"
+									},
+									"source": {
+										"$ref": "id-001009"
+									},
+									"target": {
+										"$ref": "id-001008"
+									}
+								},
+								{
+									"_type": "UMLTransition",
+									"_id": "id-001019",
+									"_parent": {
+										"$ref": "id-001003"
+									},
+									"source": {
+										"$ref": "id-001008"
+									},
+									"target": {
+										"$ref": "id-001010"
+									}
+								},
+								{
+									"_type": "UMLTransition",
+									"_id": "id-001020",
+									"_parent": {
+										"$ref": "id-001003"
+									},
+									"source": {
+										"$ref": "id-001009"
+									},
+									"target": {
+										"$ref": "id-001010"
+									}
+								},
+								{
+									"_type": "UMLTransition",
+									"_id": "id-001021",
+									"_parent": {
+										"$ref": "id-001003"
+									},
+									"source": {
+										"$ref": "id-001008"
+									},
+									"target": {
+										"$ref": "id-001012"
+									}
+								},
+								{
+									"_type": "UMLTransition",
+									"_id": "id-001022",
+									"_parent": {
+										"$ref": "id-001003"
+									},
+									"source": {
+										"$ref": "id-001010"
+									},
+									"target": {
+										"$ref": "id-001011"
+									}
+								},
+								{
+									"_type": "UMLTransition",
+									"_id": "id-001023",
+									"_parent": {
+										"$ref": "id-001003"
+									},
+									"source": {
+										"$ref": "id-001011"
+									},
+									"target": {
+										"$ref": "id-001013"
+									}
+								},
+								{
+									"_type": "UMLTransition",
+									"_id": "id-001024",
+									"_parent": {
+										"$ref": "id-001003"
+									},
+									"source": {
+										"$ref": "id-001012"
+									},
+									"target": {
+										"$ref": "id-001013"
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
